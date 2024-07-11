@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url(dailydev_where_developers_suffer_together_sfvfog.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 75px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 75px;
+}
+
+.items-2 {
+    display: flex;
+    padding-right: 75px;
+    color: #A8A3A5;
+    gap: 10px;
+
+}
+
+.items-2>h2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.items-2>button {
+    background-color: transparent;
+    width: 85px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #FFFFE7;
+    font-weight: 700;
+}
+
+.navbar>.items>img {
+    width: 180px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 100%;
+    padding-left: 160px;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    font-size: 32px;
+    background: linear-gradient(to left, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content p {
+    color: #FFFFE7;
+    font-size: 24px;
+    line-height: 30px;
+    word-wrap: normal;
+    padding-top: 10px;
+}
+
+.content>input {
+    outline: none;
+    width: 440px;
+    height: 48px;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    background-color: #ffffff0e;
+}
+
+input[type="email"] {
+    color: #fff;
+}
+
+
+input:hover {
+    box-shadow: -3.5px 0px 0px #fff;
+}
+
+.content>h3 {
+    width: 440px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.content>h3:hover {
+    background-color: #CFD6E6;
+}
+
+.content>span {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    display: flex;
+    padding: 30px;
+    color: #A8A3A5;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+h4::before,
+h4::after {
+    display: block;
+    content: "";
+    flex: 2 2;
+    border-bottom: 1px solid #A8A3A5;
+    margin: auto;
+}
+
+.content>h2 {
+    width: 440px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content>h2:last-child {
+    width: 440px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.content>h2>img {
+    width: 20px;
+    text-align: center;
+}
+
+.content>h2:hover {
+    background-color: #CFD6E6;
+}
